@@ -11,3 +11,7 @@ closeBtn.addEventListener('click', () => {
 
     popUp.classList.remove('active')
 })
+
+// login and the popup content are separated.
+// we applied onclick on login btn and then got the element popup and added class active.
+// when clicked on close btn we removed that class.
